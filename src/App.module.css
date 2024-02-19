@@ -1,0 +1,100 @@
+body {
+  background-image: linear-gradient(to right bottom, #1e385e, #006189, #008daa, #00b9bc, #5fe5c1);
+
+}
+
+
+.header {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.title {
+  color: #1e385e;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 38px;
+  text-align: center;
+
+}
+
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+
+.input {
+  color: #fff;
+  background-color:#006189;
+  width: 500px;
+  height: 35px;
+  border: 1px solid #1e385e;
+  border-radius: 5px;
+
+}
+
+
+.button {
+  color: #fff;
+  background-color: #1e385e;
+  width: 150px;
+  height: 40px;
+  border-radius: 5px;
+  margin-left: 5px;
+
+}
+
+
+.main {
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.list {
+  background-color: #1e385e;
+  width: 750px;
+  height: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+
+
+.checkbox {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  position: fixed;
+  left: 350px;
+
+}
+
+
+.todo {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  position: fixed;
+  left: 400px;
+
+}
+
+
+.delete {
+  width: 100px;
+  height: 40px;
+  position: fixed;
+  left: 900px;
+  border-radius: 5px;
+
+}
